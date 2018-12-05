@@ -6,15 +6,20 @@ package charAt_scanners_optionDialogs;
 
 public class StringMethods1 {
 	public static void main(String[] args) {
-		
+String yeetyeetyeetyeet="yeetyeetyeetblahblahwhywhy";
 		// 1. Create a String variable and initialize it to whatever you want
 
 		// 2. Print the 3rd char of your String to the console.
 		//    HINT: .charAt
-		
+		System.out.println(yeetyeetyeetyeet.charAt(3));
 		// 3. Print the length of your String to the console.
 		//    HINT: .length()
-
+System.out.println(yeetyeetyeetyeet.length());
+for(int i=0;i<yeetyeetyeetyeet.length(); i++) {
+	if((yeetyeetyeetyeet.charAt(i)+"").equals("t")) {
+		System.out.println("the letter t is in the position "+(i+1)+".");
+	}
+}
 		// 4. Using a for loop, print one char at time to the console.
 		//    HINT: use .length() to determine how many loops
 
